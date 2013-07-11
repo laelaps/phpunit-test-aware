@@ -1,0 +1,25 @@
+{
+    "authors": [
+        {
+            "name": "Mateusz Charytoniuk",
+            "email": "mateusz.charytoniuk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Laelaps\\PHPUnit\\TestAware": ""
+        }
+    },
+    "description": "Collection of PHPUnit aware objects for some deeper testing and mocking.",
+    "keywords": ["aware", "phpunit", "test"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "name": "laelaps/phpunit-test-aware",
+    "require": {
+        "phpunit/phpunit": "~3.0"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~0.2"
+    },
+    "target-dir": "Laelaps/PHPUnit/TestAware"
+}
